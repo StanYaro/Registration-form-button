@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Registration form button</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <button onclick="show('block')" class="regButton"> Оставить заявку </button>
+    <div onclick="show('none')" id="gray"></div>
+    <div id="window">
+      <img class="close" src="https://i.ibb.co/b21Vsmf/close.png"  alt="" onclick="show('none')">
+      <div class="form">
+    <h2>Регистрация</h2>
+    <form action="index.html" name="f1">
+        <input type="text" placeholder="Имя" name="name1" class="input">
+        <input type="text" placeholder="Фамилия" name="name2" class="input">
+        <input type="email" placeholder="Email" name="email1" class="input">
+        <input type="email" placeholder="Подтвердите адрес Электронной Почты" name="email2" class="input">
+        <input type="password" placeholder="Пароль" name="pass1" class="input">
+        <input type="password" placeholder="Подтвердите пароль" name="pass2" class="input">
+        <input type='tel' placeholder="Мобильный телефон" name="tel" class="input">
+        <input type="radio" name="radio1"> Мужчина <input type="radio" name="radio1" class="radio"> Женщина
+        <input type="submit" value="Регистрация" name="sab" class="input"> Нажимая «Регистрация», вы подтверждаете, что прочитали и согласны с нашими Условиями Пользования и Политикой Конфиденциальности.
+    </form>
+    </div>
+    </div>    
+    <script src="script.js"></script>
+</body>
+
+</html>

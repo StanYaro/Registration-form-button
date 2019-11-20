@@ -1,0 +1,72 @@
+  .regButton {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 1px solid #ccc;
+    margin: 0 auto;
+    background: radial-gradient(farthest-side ellipse at top left, white, #96949493);
+    box-shadow: 5px 10px 20px rgba(0,0,0,0.3), -5px -10px 20px rgba(255, 255, 255, 0.24);
+    cursor: pointer;
+    }
+  .regButton:hover {
+    background: rgba(255, 255, 255, 0.007);
+  }
+  #window {
+    width: 350px;
+    height: 530px;
+    margin: 40px auto;
+    background: #fff;
+    border: 1px solid #fff;
+    border-radius: 15px;
+    z-index: 150;
+    display: none;
+    position: fixed;
+    left:0;
+    right: 0;
+    top: 0;
+    bottom: 0; 
+  }
+  .form {
+    width: 275px;
+    margin: -15px auto 20px auto;
+    text-align: center; 
+  }
+  .input {
+    width: 260px;
+    padding: 5px;
+    margin-bottom: 10px;
+  }
+  .radio {
+    margin-bottom: 10px;
+  }
+  .close {
+    margin: 10px 0 0 320px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    padding: 2px;
+    background: #ccc;
+  }
+  .close:hover {
+    background: #fff;
+  }
+  #gray {
+    opacity: 0.8;
+    padding: 15px;
+    background-color: rgba(1,1,1,0.75);
+    position: fixed;
+    left:0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    display: none;
+    z-index: 100;
+    overflow: auto;
+  }
+  body {
+    height: 930px;
+    background: repeating-radial-gradient(circle, #B9ECFE, #B9ECFE 10px, #82DDFF 10px, #82DDFF 20px);
+    display: flex;
+    padding-right: 8px;
+    align-items: center;
+    justify-content: center;
+}
